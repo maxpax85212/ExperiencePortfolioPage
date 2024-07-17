@@ -1,0 +1,183 @@
+.Wrapper{
+    max-height: fit-content;
+    width: 1400px;
+    max-width: 1400px;
+    background: #cccccc;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    /* font-weight: bold; */
+    /* overflow: auto;
+    scrollbar-width: thin; */
+}
+.main{
+    flex: 1;
+    order: 1;
+    background: #eee;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    height: fit-content;
+}
+
+/* .sidebar-first{
+    width: 20%;
+    background: #eee;
+    order: 1;
+
+} */
+.sidebar-second{ 
+    width: 50%;
+    order: 2;
+    background: #ddd;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    max-height: fit-content;
+}
+.content {
+    display: flex;
+    flex: 1;
+    background: #eee;
+    color: #000; 
+    max-width: 1320px;
+    overflow: auto;
+    max-height: fit-content;
+}
+.columns{
+    display: flex;
+    flex:1;
+}
+
+.amcontent {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background: #eee;
+    color: #000; 
+    max-width: 1320px;
+    overflow: auto;
+    max-height: fit-content;
+}
+.amcolumns{
+    display: flex;
+    flex:1;
+}
+
+.am-sidebar-second{ 
+    width: 100%;
+    order: 2;
+    background: #eee;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    max-height: fit-content;
+    text-align: center;
+}
+
+.imagebox{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(159, 159, 159);
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+} */
+.TileDescription {
+    max-width: 600px;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    /* font-weight: bold; */
+    font-size: small;
+}
+
+.AboutMeTab {
+    color:#000;
+}
+
+.Goals {
+    color:#000;
+    background: #ffffff;
+    overflow: auto;
+    max-height: 540px;
+}
+
+.ProjectTitle {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.SectionHeaders{
+    font-size: large;
+}
+
+.linkedInImage, .trailheadImage {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+}
+
+/* .trailheadImage{
+    padding-top: 20px;
+} */
+
+.ImageContainer {
+    width: 580px;
+    height: 360px;
+}
+
+.LWCImage{
+    max-width: 100% !important;
+    height: auto;
+    width: auto;
+}
+
+.AccordianSectionIncomplete {
+    --slds-c-accordion-summary-color-background: #032d60;
+}
+
+.AccordianSectionComplete {
+    --slds-c-accordion-summary-color-background: #008000;
+}
+
+
+.AboutMeTitle, .ContactMe {
+ font-weight: Bold;
+ font-size: large;
+}
+
+/* ul {
+    list-style-type: disc;
+    list-style-position: outside;
+} */

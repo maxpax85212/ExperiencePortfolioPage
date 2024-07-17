@@ -1,0 +1,71 @@
+.main{
+    flex: 1;
+    order: 1;
+    background: #eee;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    height: fit-content;
+}
+
+
+.sidebar-second{ 
+    width: 50%;
+    order: 2;
+    background: #ddd;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    max-height: fit-content;
+}
+.content {
+    display: flex;
+    flex: 1;
+    background: #eee;
+    color: #000; 
+    max-width: 1320px;
+    overflow: auto;
+    max-height: fit-content;
+}
+.columns{
+    display: flex;
+    flex:1;
+}
+
+.TileDescription {
+    max-width: 600px;
+    overflow-wrap: break-word;
+    /* @sldsValidatorIgnore */
+    text-overflow: wrap;
+    /* @sldsValidatorIgnore */
+    white-space: normal;
+    word-wrap:break-word;
+    /* font-weight: bold; */
+    font-size: small;
+}
+
+.ImageContainer {
+    width: 580px;
+    height: 360px;
+}
+
+.ProjectTitle {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.SectionHeaders{
+    font-size: large;
+}
+
+.LWCImage{
+    max-width: 100% !important;
+    height: auto;
+    width: auto;
+}
