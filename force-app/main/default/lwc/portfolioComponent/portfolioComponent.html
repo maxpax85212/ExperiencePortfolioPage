@@ -3,23 +3,28 @@
     <div class="Wrapper">
         <lightning-tabset variant="scoped">
             <lightning-tab label="About Me" onactive={handleAMChange}>
-                <section class="amContent">
-                    <div class="amColumns">
-                        <main class="main">
-                            <div class="slds-p-around_medium lgc-bg">
-                                <div class = 'AboutMeTab'>
-                                    <div class='AboutMe'>
-                                        <div class='AboutMeTitle'>About Me</div>
-                                        A 3x certified Salesforce Administrator with 2 years of experience managing Salesforce environments, optimizing workflows, and improving CRM efficiency. 
-                                        Demonstrated expertise in user management, data integrity, and driving best practices. 
-                                        Adept at analyzing business requirements and translating them into effective Salesforce solutions. 
-                                        Strong problem-solving skills with a focus on user satisfaction and operational excellence.                                    
-                                    </div>
-                                </div>
+                <main class="main">
+                    <div class="slds-p-around_medium lgc-bg">
+                        <div class = 'AboutMeTab'>
+                            <div class='AboutMe'>
+                                I am a seasoned Salesforce Professional based in Oregon with a passion for optimizing business processes and driving digital transformation. 
+                                With a solid background in Salesforce administration and development, I bring a deep understanding of the platform's capabilities 
+                                and a proven track record of implementing customized solutions that enhance productivity, improve user experiences, and support business growth.
+                                <br><br>
+                                I excel in collaborating with stakeholders to gather requirements, design tailored solutions, and translate complex business needs into actionable strategies. 
+                                My approach is always user-centric, focusing on delivering value through streamlined processes and data-driven insights.       
+                                In addition to my technical skills, I am committed to continuous learning and staying updated with the latest Salesforce innovations to ensure my solutions 
+                                remain aligned with industry best practices.
+                                <br><br>
+                                Outside of my professional work, I enjoy playing music and games with friends, which help me stay relaxed and balanced. Whether it's playing piano or 
+                                trying a new game, I find these pursuits enhance my overall well-being.
+                                <br><br>
+                                Whether you're looking to optimize your current Salesforce implementation or embark on a new project, I bring the expertise, dedication, and 
+                                creativity to help your business achieve its goals.
                             </div>
-                        </main>
+                        </div>
                     </div>
-                </section>
+                </main>
             </lightning-tab>
             <lightning-tab label="Projects" title="Projects" onactive={handleProjectsChange}>
                 <section class="content">
@@ -184,8 +189,8 @@
             <lightning-tab label="Goals" onactive={handleGoalsChange}>
                 <div class="Goals">
                     <lightning-accordion allow-multiple-sections-open class="Accordian" active-section-name={activeSections}>
-                        <lightning-accordion-section name="A" label="Pass Advanced Admin Certification" class="AccordianSectionIncomplete">
-                                <p>I aim to pass the Salesforce Advanced Administrator exam to demonstrate my expertise in managing complex Salesforce environments. This certification will help me:</p>
+                        <lightning-accordion-section name="A" label="Pass Advanced Admin Certification" class="AccordianSectionIncomplete">  
+                            <p class="AccordianDetail">I aim to pass the Salesforce Advanced Administrator exam to demonstrate my expertise in managing complex Salesforce environments. This certification will help me:</p>
                                 <ul class="slds-list_dotted">
                                     <li>Improve user management skills</li>
                                     <li>Master complex automation processes</li>
@@ -199,7 +204,7 @@
                         </lightning-accordion-section>
 
                         <lightning-accordion-section name="B" label="Develop JavaScript Skills, research JavaScript Developer I Certification" class="AccordianSectionIncomplete">
-                            <p>
+                            <p class="AccordianDetail">
                                 I aim to pass the Salesforce JavaScript Developer I certification to enhance my development skills on the Salesforce platform. This certification is intended to round out my Salesforce Development skills in the area that I am least proficient in.
                             </p>
                             <br>
@@ -215,7 +220,7 @@
                         </lightning-accordion-section>
 
                         <lightning-accordion-section name="C" label="Learn more about Git, Github, and Version Control best practices" class="AccordianSectionIncomplete">
-                            <p>
+                            <p class="AccordianDetail">
                                 I aim to deepen my understanding of Git, GitHub, and version control best practices to enhance my development workflow and collaboration skills. This goal will help develop these core concepts:
                             </p>
                             <ul class="slds-list_dotted">
@@ -239,7 +244,7 @@
                         </lightning-accordion-section>
 
                         <lightning-accordion-section name="D" label="COMPLETED - Pass Platform Developer I Certification" class="AccordianSectionComplete">
-                            <p>
+                            <p class="AccordianDetail">
                                 I committed to passing the Salesforce Platform Developer I certification to significantly enhance my development expertise on the Salesforce platform. This certification was pivotal as it empowered me to:
                             </p>
                             
