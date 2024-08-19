@@ -2,4 +2,4 @@ To view the the components code, navigate to "force-app/main/default", then "lwc
 
 **Final Product**
 
-https://mail.google.com/mail/u/0/#drafts?compose=DmwnWsCRjxNkhNxCBzcRGKzLqVfbSCptLKfmdVRkwHWgXlTcmXNqBDkhDmDFRWJlgpzDMWpmtPQv
+<a href='https://evercommerce4-dev-ed.develop.my.site.com/MaxJonesSFPortfolio/#'>My Salesforce Portfolio</a>
